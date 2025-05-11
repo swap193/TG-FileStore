@@ -3,14 +3,14 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
+	API_ID = int(os.environ.get("20140653")
+	API_HASH = os.environ.get("4ef9431fa730de32045e3b28201c09ef")
+	BOT_TOKEN = os.environ.get("8181026113:AAH-U08g1d_6HqdiyeVd4bjaYjye2Hn4EUI")
+	BOT_USERNAME = os.environ.get("@Swapn1bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	BOT_OWNER = int(os.environ.get("1345833019"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
